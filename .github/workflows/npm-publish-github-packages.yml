@@ -3,6 +3,9 @@
 
 name: Node.js Package
 
+# Workflow's trigger
+on: workflow_dispatch
+
 on:
   release:
     types: [created]
